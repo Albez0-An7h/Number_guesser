@@ -1,0 +1,39 @@
+body{
+    background-image: linear-gradient(to right top, #b13ddc, #ff3091, #ff7455, #ebb149, #c1de7f);
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+}
+.container{
+    align-content: center;
+    margin: auto;
+    height: 200px;
+    width: 400px;
+    background-color:chocolate;
+    padding: 50px;
+    border: 3px solid ;
+    color: antiquewhite;
+    margin-top: 200px;
+}
+.btngen, .subtn{
+    padding: 3px;
+    background-color:cornsilk;
+    border: none;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px;
+}
+.btngen:hover,.subtn:hover{
+    background-color:blanchedalmond;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+body{
+    background-color:antiquewhite;
+}
+#fill{
+    color:red;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+}
