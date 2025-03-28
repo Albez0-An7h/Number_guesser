@@ -8,11 +8,20 @@
 </head>
 <body>
     <div class="container">
-        <h2>Let's Play Number Guesser</h2>
-        <p>Click here to genrate a number between 0 to 10 --> <button class="btngen" id="gen">Genrate</button></p>
-        <p id="idn"></p>
-        <input id="in" type="text" placeholder="Enter your Number"><button class="subtn" id="sub">Submit</button>
-        <p id="fill">You have guesses left.</p>
+        <h2>Number Guesser Challenge</h2>
+        <div class="score-board">
+            <span>High Score: <span id="highScore">0</span></span>
+            <span>Current Score: <span id="currentScore">100</span></span>
+        </div>
+        <p>Guess a number between 0 and 10</p>
+        <button class="btngen" id="gen">New Game</button>
+        <p id="attempts">Attempts left: 5</p>
+        <p id="hint" class="hint"></p>
+        <div class="input-group">
+            <input id="in" type="number" min="0" max="10" placeholder="Enter your guess">
+            <button class="subtn" id="sub">Submit</button>
+        </div>
+        <p id="fill" class="message">Get ready to play!</p>
     </div>
     <script src="script.js"></script>
 </body>
